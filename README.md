@@ -5,8 +5,8 @@ Hi 👋, I'm Jason
 
 ### Connect with me:
 
-<a href="https://twitter.com/chaosaffe" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="chaosaffe" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/chaosaffe" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="chaosaffe" height="30" width="40" /></a>
+<a href="https://twitter.com/scruplelesswizard" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="scruplelesswizard" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/scruplelesswizard" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="scruplelesswizard" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/3496352" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="3496352" height="30" width="40" /></a>
 
 ### Languages and Tools:
@@ -30,8 +30,8 @@ Hi 👋, I'm Jason
 <a href="https://redis.io" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/></a>
 <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/></a>
 
-![chaosaffe](https://github-readme-stats.vercel.app/api/top-langs?username=chaosaffe&show_icons=true&locale=en&layout=compact&theme=solarized-dark)
+![scruplelesswizard](https://github-readme-stats.vercel.app/api/top-langs?username=scruplelesswizard&show_icons=true&locale=en&layout=compact&theme=solarized-dark)
 
-![chaosaffe](https://github-readme-stats.vercel.app/api?username=chaosaffe&show_icons=true&locale=en&count_private=true&theme=solarized-dark)
+![scruplelesswizard](https://github-readme-stats.vercel.app/api?username=scruplelesswizard&show_icons=true&locale=en&count_private=true&theme=solarized-dark)
 
-![chaosaffe](https://github-readme-streak-stats.herokuapp.com/?user=chaosaffe&theme=solarized-dark)
+![scruplelesswizard](https://github-readme-streak-stats.herokuapp.com/?user=scruplelesswizard&theme=solarized-dark)
