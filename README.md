@@ -29,9 +29,3 @@ Hi 👋, I'm Jason
 <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/></a>
 <a href="https://redis.io" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/></a>
 <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/></a>
-
-![scruplelesswizard](https://github-readme-stats.vercel.app/api/top-langs?username=scruplelesswizard&show_icons=true&locale=en&layout=compact&theme=solarized-dark)
-
-![scruplelesswizard](https://github-readme-stats.vercel.app/api?username=scruplelesswizard&show_icons=true&locale=en&count_private=true&theme=solarized-dark)
-
-![scruplelesswizard](https://github-readme-streak-stats.herokuapp.com/?user=scruplelesswizard&theme=solarized-dark)
