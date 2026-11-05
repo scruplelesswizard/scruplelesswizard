@@ -2,25 +2,22 @@
 
 ### Platform engineer in Canada. I make infrastructure boring and CI fast.
 
-I build the Kubernetes, Terraform and CI/CD foundations that let product teams ship without thinking about
-them. My open source work follows the same idea: small, well-tested tools and automation that remove waiting
-from the developer feedback loop.
+I build Kubernetes, Terraform and CI/CD platforms for product teams. My open source work is the same job on
+a smaller scale: tools and automation that cut the time developers spend waiting on CI.
 
 <a href="https://linkedin.com/in/scruplelesswizard" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="scruplelesswizard" height="30" width="40" /></a>
 <a href="https://wizardswithoutscruples.com" target="_blank">wizardswithoutscruples.com</a>
 
----
-
 ### My own projects
 
 **[split-tests](https://github.com/scruplelesswizard/split-tests)** · GitHub Action · ⭐ 34
-I wrote this to split a test suite into equal-time groups so parallel CI jobs finish together instead of
-waiting on the slowest runner. It works with any test runner. The underlying binary is pinned and
+Splits a test suite into equal-time groups so parallel CI jobs finish together instead of waiting on the
+slowest runner. It works with any test runner. The underlying binary is pinned and
 SHA256-verified, a weekly workflow proposes upgrades, and the smoke tests assert that every partition is
 non-empty, disjoint and covers the full suite.
 
 **[junit-munger](https://github.com/scruplelesswizard/junit-munger)** · Go CLI · v1.0.0
-I wrote this to merge per-worker RSpec JUnit reports into per-file timings, which is the input split-tests
+Merges per-worker RSpec JUnit reports into per-file timings, which is the input split-tests
 needs to balance runs by real durations. It has unit tests, and CI publishes cross-platform binaries and cuts
 a release on every merge.
 
@@ -38,12 +35,12 @@ InfluxDB measurement streams, ready to chart in Grafana. I archived it, but it s
 
 I have also made smaller fixes in Terraform, Kubernetes, Atlantis, Argo Helm and tfsec.
 
-### What I bring
+### What I do
 
-- **Platform and infrastructure:** Kubernetes, Helm and Terraform on AWS, GCP and Azure
-- **Developer experience:** faster CI, test parallelization, release automation
-- **Engineering habits:** tests and CI on everything, automated dependency updates, documented and versioned releases
-- **Languages:** Go, TypeScript, Python, Bash
+I work on platform and infrastructure with Kubernetes, Helm and Terraform on AWS, GCP and Azure, and I focus
+on developer experience: faster CI, test parallelization and release automation. split-tests and
+junit-munger both have tests and CI, automated dependency updates and versioned releases. I write mostly Go, with TypeScript,
+Python and Bash.
 
 ### By the numbers
 
@@ -70,6 +67,4 @@ On GitHub since 2015 · 1,100+ contributions in the last year · 50 public repos
 <a href="https://redis.io" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/></a>
 <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/></a>
 
----
-
-Want to talk platform engineering, CI speed or mesh networks? Find me on LinkedIn above.
+Want to talk platform engineering or CI speed? Find me on LinkedIn above.
