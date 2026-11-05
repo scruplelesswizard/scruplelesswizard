@@ -1,50 +1,28 @@
 # Jason Murray
 
-### Platform engineer in Canada. I make infrastructure boring and CI fast.
+### Platform engineer in Canada
 
-I build Kubernetes, Terraform and CI/CD platforms for product teams. My open source work is the same job on
-a smaller scale: tools and automation that cut the time developers spend waiting on CI.
+I build Kubernetes, Terraform and CI/CD platforms. My open source work is mostly CI tooling and Meshtastic
+integrations.
 
 <a href="https://linkedin.com/in/scruplelesswizard" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="scruplelesswizard" height="30" width="40" /></a>
 <a href="https://wizardswithoutscruples.com" target="_blank">wizardswithoutscruples.com</a>
 
 ### My own projects
 
-**[split-tests](https://github.com/scruplelesswizard/split-tests)** · GitHub Action · ⭐ 34
-Splits a test suite into equal-time groups so parallel CI jobs finish together instead of waiting on the
-slowest runner. It works with any test runner. The underlying binary is pinned and
-SHA256-verified, a weekly workflow proposes upgrades, and the smoke tests assert that every partition is
-non-empty, disjoint and covers the full suite.
-
-**[junit-munger](https://github.com/scruplelesswizard/junit-munger)** · Go CLI · v1.0.0
-Merges per-worker RSpec JUnit reports into per-file timings, which is the input split-tests
-needs to balance runs by real durations. It has unit tests, and CI publishes cross-platform binaries and cuts
-a release on every merge.
-
-**[meshtastic-node-red](https://github.com/scruplelesswizard/meshtastic-node-red)** · Node-RED · ⭐ 18 · archived reference
-A telemetry pipeline for off-grid LoRa mesh networks: MQTT ingest, protobuf decoding, deduplication and six
-InfluxDB measurement streams, ready to chart in Grafana. I archived it, but it still works as a reference.
+- [split-tests](https://github.com/scruplelesswizard/split-tests) (GitHub Action, 34 stars): splits a test suite into equal-time groups for parallel CI jobs, using JUnit timings if you have them. The underlying binary is pinned and checksum-verified.
+- [junit-munger](https://github.com/scruplelesswizard/junit-munger) (Go CLI): merges per-worker RSpec JUnit reports into per-file timings, the input split-tests uses to balance runs.
+- [meshtastic-node-red](https://github.com/scruplelesswizard/meshtastic-node-red) (Node-RED, 18 stars, archived): decodes Meshtastic MQTT packets and writes telemetry to InfluxDB. Last updated for firmware 2.2.15.
 
 ### Open source contributions
 
-- **[meshtastic/node-red-contrib-meshtastic](https://github.com/search?q=repo%3Ameshtastic%2Fnode-red-contrib-meshtastic+author%3Ascruplelesswizard&type=commits)**: 26 commits. I added decoding for NeighborInfo, StoreAndForward, range test and other port numbers, consolidated the payload decoding, moved telemetry handling, added CI and release workflows, and documented the v1 to v2 data structure changes.
-- **[meshtastic/firmware](https://github.com/search?q=repo%3Ameshtastic%2Ffirmware+author%3Ascruplelesswizard&type=commits)**: 13 commits of CI/CD work. I consolidated the variant build steps, added Dependabot, automated the protobuf-bump PRs, and added a PR comment that links the build artifact.
-- **[meshtastic/js](https://github.com/search?q=repo%3Ameshtastic%2Fjs+author%3Ascruplelesswizard&type=commits)**: 5 commits for dependency updates, cleanup of an obsolete payload case, and a CI check that the package version is bumped.
-- **[ProtonMail/go-crypto](https://github.com/search?q=repo%3AProtonMail%2Fgo-crypto+author%3Ascruplelesswizard&type=commits)**: added OpenPGP key flags (authenticate, group key, split key) support in Go.
-- **[kubermatic/kubermatic](https://github.com/search?q=repo%3Akubermatic%2Fkubermatic+author%3Ascruplelesswizard&type=commits)**: wrote the guide for creating a new seed cluster and refactored a Helm chart.
+- [meshtastic/node-red-contrib-meshtastic](https://github.com/search?q=repo%3Ameshtastic%2Fnode-red-contrib-meshtastic+author%3Ascruplelesswizard&type=commits) (26 commits): port number decoding, consolidated payload decoding, CI and release workflows, and docs on the v1 to v2 data changes.
+- [meshtastic/firmware](https://github.com/search?q=repo%3Ameshtastic%2Ffirmware+author%3Ascruplelesswizard&type=commits) (13 commits): CI changes, including consolidating the variant build steps, Dependabot, and a PR comment linking the build artifact.
+- [meshtastic/js](https://github.com/search?q=repo%3Ameshtastic%2Fjs+author%3Ascruplelesswizard&type=commits) (5 commits): dependency updates and a CI check that the package version is bumped.
+- [ProtonMail/go-crypto](https://github.com/search?q=repo%3AProtonMail%2Fgo-crypto+author%3Ascruplelesswizard&type=commits): OpenPGP key flags support (authenticate, group key, split key).
+- [kubermatic/kubermatic](https://github.com/search?q=repo%3Akubermatic%2Fkubermatic+author%3Ascruplelesswizard&type=commits): a guide for creating a new seed cluster, and a Helm chart refactor.
 
-I have also made smaller fixes in Terraform, Kubernetes, Atlantis, Argo Helm and tfsec.
-
-### What I do
-
-I work on platform and infrastructure with Kubernetes, Helm and Terraform on AWS, GCP and Azure, and I focus
-on developer experience: faster CI, test parallelization and release automation. split-tests and
-junit-munger both have tests and CI, automated dependency updates and versioned releases. I write mostly Go, with TypeScript,
-Python and Bash.
-
-### By the numbers
-
-On GitHub since 2015 · 1,100+ contributions in the last year · 50 public repositories · 55 stars across my own projects
+I have also made small fixes in Terraform, Kubernetes, Atlantis, Argo Helm and tfsec.
 
 ### Tools
 
